@@ -7,5 +7,10 @@ public class MyWorld extends World {
         Character man = new Character();
         addObject(man , 100 , 100 );
         
+        Bullets ball = new Bullets();
+        addObject(ball , 600 , 100);
+        
+        
+        
     }
 }
